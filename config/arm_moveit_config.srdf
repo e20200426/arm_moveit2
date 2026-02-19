@@ -41,7 +41,7 @@
         <joint name="joint7" value="-0.5815"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="end_effector" parent_link="j7_Link" group="tanerb" parent_group="tanerb"/>
+    <end_effector name="end_eff" parent_link="end_Link" group="tanerb"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="base_link" link2="end_Link" reason="Never"/>
     <disable_collisions link1="base_link" link2="j1_Link" reason="Adjacent"/>

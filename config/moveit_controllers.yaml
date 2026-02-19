@@ -8,8 +8,6 @@ moveit_simple_controller_manager:
 
   tanerb_controller:
     type: FollowJointTrajectory
-    action_ns: follow_joint_trajectory
-    default: true
     joints:
       - joint1
       - joint2
@@ -18,3 +16,5 @@ moveit_simple_controller_manager:
       - joint5
       - joint6
       - joint7
+    action_ns: follow_joint_trajectory
+    default: true

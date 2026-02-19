@@ -7,7 +7,7 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: SRONG Ougy
     author_email: ougy.srong@ecam.fr
-    generated_timestamp: 1771487222
+    generated_timestamp: 1771489168
   control_xacro:
     command:
       - position

@@ -29,7 +29,7 @@
         <joint name="joint4" value="-1.5708"/>
         <joint name="joint5" value="0"/>
         <joint name="joint6" value="0"/>
-        <joint name="joint7" value="-0.436332"/>
+        <joint name="joint7" value="-0.523599"/>
     </group_state>
     <group_state name="resting" group="tanerb">
         <joint name="joint1" value="0"/>
